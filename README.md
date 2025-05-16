@@ -10,7 +10,7 @@ classDiagram
         +is_vegan()
     }
 
-    class appetizer {
+    class Appetizer {
         +__str__()
     }
 
