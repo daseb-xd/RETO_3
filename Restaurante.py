@@ -42,6 +42,7 @@ class Order():
         self.items.append(item)
     
     #Defining a discount method that applies a 10% to 30% discount, based on items in the order
+    #10% after 15 items, then 0.5% extra, maxes out at 30%
     def discount(self) -> float:
         n = len(self.items)
         if n > 15:
