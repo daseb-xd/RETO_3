@@ -32,7 +32,7 @@ classDiagram
     }
 
     class Order {
-        -items: list~MenuItem~
+        -items: list[MenuItem]
         +add_item(item: MenuItem)
         +discount() float
         +get_bill() float
