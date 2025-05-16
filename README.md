@@ -39,7 +39,7 @@ classDiagram
         +__str__() str
     }
 
-    MenuItem <|-- appetizer
+    MenuItem <|-- Appetizer
     MenuItem <|-- MainCourse
     MenuItem <|-- Beverage
     MenuItem <|-- Dessert
